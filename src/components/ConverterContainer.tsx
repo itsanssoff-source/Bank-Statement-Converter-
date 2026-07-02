@@ -84,15 +84,15 @@ export default function ConverterContainer() {
         <div className="w-full max-w-5xl mx-auto px-4 py-16 sm:py-24 relative z-10">
             <div className="text-center mb-12 sm:mb-16">
                 <div className="inline-flex items-center justify-center px-4 py-1.5 mb-6 text-sm font-semibold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/50 rounded-full border border-indigo-100 dark:border-indigo-800/50 shadow-sm">
-                    ✨ 100% Client-Side Processing
+                    ✨ 100% Free · 100% Private · No Signup
                 </div>
-                <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6 text-slate-900 dark:text-white">
-                    Bank Statement to CSV<br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-500">Made Simple</span>
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-slate-900 dark:text-white">
+                    Free Bank Statement to CSV Converter —{' '}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-500">No Signup Required</span>
                 </h1>
                 <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                    Convert your PDF statements to structured spreadsheets instantly. 
-                    <span className="font-semibold text-slate-800 dark:text-slate-200"> Your files never leave your browser.</span>
+                    Drag and drop your bank statement PDF. Get a clean CSV or Excel file in seconds.{' '}
+                    <span className="font-semibold text-slate-800 dark:text-slate-200">Your files never leave your browser</span> — 100% private, 100% free.
                 </p>
             </div>
 
