@@ -362,7 +362,7 @@ export function Footer() {
           <strong className="text-slate-600 dark:text-slate-300">bank statement to CSV converter</strong>{' '}
           with no signup, no upload, and 100% privacy.
         </p>
-        <div className="flex gap-6">
+        <div className="flex flex-wrap gap-6 items-center">
           <a href="#privacy" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
             Privacy
           </a>
@@ -371,6 +371,27 @@ export function Footer() {
           </a>
           <a href="#how-it-works" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
             How it Works
+          </a>
+          <a id="fys-badge-6a466707db00ded2623a4baa-1782998840468" href="https://findyoursaas.com/tool/bank-statement-to-csv-excel-converter-free-no-signup" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'inline-block', color: 'inherit' }}>
+            <div className="fys-badge-inner" style={{
+              display: 'flex',
+              alignItems: 'center',
+              backgroundColor: '#374151',
+              border: '1px solid #4B5563',
+              borderRadius: '6px',
+              padding: '6px 10px',
+              fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+              boxShadow: '0 2px 4px -1px rgba(0, 0, 0, 0.2)',
+              transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+              lineHeight: 1
+            }}>
+              <img src="https://findyoursaas.com/fys-logo.png"
+                   alt="FYS Logo"
+                   style={{ width: '18px', height: '18px', borderRadius: '50%', marginRight: '6px', display: 'block' }}/>
+              <span style={{ fontSize: '12px', fontWeight: 500, color: '#F3F4F6', whiteSpace: 'nowrap' }}>
+                Featured on FYS
+              </span>
+            </div>
           </a>
         </div>
       </div>
